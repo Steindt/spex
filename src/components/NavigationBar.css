@@ -1,6 +1,28 @@
-.Navbar {
-    height: 20px;
+.NavbarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    position: absolute;
-    background-color: red;
+    height: 10vh;
+    background-color: gray;
+}
+
+.NavbarLink {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    height: 50px;
+    width: 70px;
+    background-color: transparent;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.NavbarLink:hover {
+    font-weight: 600;
 }

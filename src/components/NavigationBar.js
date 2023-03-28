@@ -1,11 +1,15 @@
+import {Link} from 'react-router-dom';
 import './NavigationBar.css';
 
 export default function NavigationBar() {
-    function test() {
-        alert("CLICK");
-    }
-
     return (
-        <button onClick={test}>Hello</button>
+        <div className="NavbarContainer">
+            <Link to="/" className='NavbarLink'>
+                Home
+            </Link>
+            <Link to="/about" className='NavbarLink'>
+                About
+            </Link>
+        </div>
     );
 }

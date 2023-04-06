@@ -1,7 +1,10 @@
-import Ranking from '../components/Ranking'
+import './Home.css';
+import Ranking from '../components/Ranking';
 
 export default function Home() {
     return (
-        <Ranking></Ranking>
+        <div className="Container">
+            <Ranking></Ranking>
+        </div>
     );
 }

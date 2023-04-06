@@ -3,7 +3,7 @@ import './Ranking.css'
 
 export default function Ranking() {
     const tableData = rankData.map(spex => 
-        <tr>
+        <tr className="tablerow" key={spex.id}>
             <td>{spex.rank}</td>
             <td>{spex.name}</td>
             <td>{spex.förening}</td>

@@ -24,4 +24,45 @@ th {
 }
 
 td {
+    vertical-align: middle;
+}
+
+.title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: clip;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+td img {
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+}
+
+.details {
+    flex-direction: column;
+    margin-left: 10px;
+    text-align: left;
+    line-height: 1.2em;
+    font-size: 13px;
+}
+
+.details p {
+    margin: 0px;
+}
+
+.titleText {
+    font-weight: bold;
+    font-size: 20px;
+    text-overflow: clip;
+    overflow: hidden;
+    height: auto;
+    line-height: 1em;
+    margin: 5px 0 0 0;
 }

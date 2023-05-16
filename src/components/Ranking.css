@@ -2,8 +2,8 @@ table {
     margin: 20px;
     border-collapse: collapse;
     border: 2px solid black;
-    width: 60%;
-    max-width: 800px;
+    width: 80%;
+    max-width: 1200px;
     min-width: 600px;
 }
 
@@ -40,8 +40,10 @@ td {
 }
 
 td img {
-    width: 75px;
-    height: 75px;
+    min-width: 75px;
+    min-height: 75px;
+    max-width: 75px;
+    max-height: 75px;
     overflow: hidden;
 }
 

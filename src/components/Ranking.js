@@ -1,5 +1,6 @@
 import {rankData} from '../api/rankData.js';
 import RankingItem from './RankingItem.js';
+import './Ranking.css';
 
 export default function Ranking() {
 
@@ -15,7 +16,7 @@ export default function Ranking() {
             </thead>
             <tbody>
                 {rankData.map(spex => 
-                    <RankingItem key={spex.id} id={spex.id}></RankingItem>
+                    <RankingItem key={spex.id} spex={spex}></RankingItem>
                 )}
             </tbody>
         </table>
